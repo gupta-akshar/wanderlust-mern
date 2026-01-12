@@ -1,0 +1,41 @@
+# Node modules
+/node_modules/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+.env.production
+.env.test
+
+# IDEs and editors
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Build outputs
+/dist/
+/build/
+
+# Uploaded images (if any)
+public/uploads/
+src/public/uploads/
+
+# Cloudinary credentials (if stored locally)
+*.key
+*.pem
+
+# Misc
+*.log
+*.cache
